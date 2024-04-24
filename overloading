@@ -1,0 +1,15 @@
+class parentclass:
+    def call_me(self):
+        print("i am parent class")
+        
+
+class childclass(parentclass):
+    def call_me(self):
+        print("i am child class")
+        
+pobj=parentclass()
+pobj.call_me()
+
+cobj=childclass
+cobj.call_me()
+
