@@ -1,0 +1,6 @@
+list=[str(x) for x in input().split()]
+list1=[]
+for i in list:
+    for j in range(len(i)+1):
+        if(i[j]=='s')
+        
